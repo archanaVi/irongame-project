@@ -1,0 +1,41 @@
+
+body {
+    background-image: url("../images/board_frame.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    color: #fff;
+    background-color: white;
+}
+
+
+
+.starter-text {
+    margin-top:200px;
+    margin-left: 380px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #020005;
+    padding: 6px 35px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+}
+
+
+
+
+
+/*.start-btn {
+    color: white;
+    font-family: 'Gill Sans MT Pro UltraBold Cond';
+    font-size: 30px;
+    width: 200px;
+    height: 45px;
+    line-height: 55px;
+    margin: auto;
+    margin-top: 55px;
+    background-color: #E74148;
+    border: none;
+    position: center;
+}
+*/
+  
