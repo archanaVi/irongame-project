@@ -15,7 +15,18 @@
                 Sounds fun? Let's start then !</p>
                 <button class="start-btn">Start the Game</button>
     </div>
-        <canvas id="canvas" width="1064" height="600"></canvas>
+
+    <div class="mario-lost" style="display: none">              
+            <p>Mario, You lost !</p>
+            <img style="display:block" src="./images/giphy_mario.gif">
+            <button class="start-btn">Start the Game</button>
+    </div>
+    <div class="toad-lost" style="display: none">              
+            <p>Toad, You lost !</p>
+            <img style="display:block" src="./images/giphy_toad.gif">
+            <button class="start-btn" >Start the Game</button>
+    </div>
+        <canvas id="canvas" width="630" height="315"></canvas>
         <button class="start-game" style="display: none">Begin</button>
 
     <script src="./js/jquery-2.1.4.js"></script>
