@@ -131,7 +131,7 @@ Ball.prototype.update = function (player1, player2) {
   }
 
   if (
-    ball_topleftx < 70 &&
+    ball_topleftx < 50 &&
     ball_toplefty <= player1.y + 86 &&
     ball_toplefty >= player1.y - 86
   ) {
@@ -140,7 +140,7 @@ Ball.prototype.update = function (player1, player2) {
   }
 
   if (
-    ball_bottomleftx < 70 &&
+    ball_bottomleftx < 50 &&
     ball_bottomlefty >= player1.y - 86 &&
     ball_bottomlefty >= player1.y + 86
   ) {
@@ -149,7 +149,7 @@ Ball.prototype.update = function (player1, player2) {
   }
 
   if (
-    ball_toprightx > 562 &&
+    ball_toprightx > 580 &&
     ball_toprighty <= player2.y + 63 &&
     ball_toprighty >= player2.y - 63
   ) {
@@ -158,11 +158,11 @@ Ball.prototype.update = function (player1, player2) {
   }
 
   if (
-    ball_bottomrightx > 562 &&
+    ball_bottomrightx > 580 &&
     ball_bottomrightx <= player2.y + 63 &&
     ball_bottomrighty >= player2.y - 63
   ) {
-    this.vy = -this.vy
+    //this.vy = -this.vy
     this.vx = -this.vx
   }
 
@@ -171,7 +171,7 @@ Ball.prototype.update = function (player1, player2) {
     clearInterval (interId)
   }
 
-  if (this.x > 630) {
+  if (this.x > 620) {
     $('.toad-lost').show()
     clearInterval (interId)
     }
