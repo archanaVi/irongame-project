@@ -20,7 +20,6 @@ $('.start-btn').click(function () {
   player2.draw()
   ball = new Ball()
   ball.draw()
-  $('.start-game').toggle()
   interId = setInterval(update, 20)
   $('.mario-lost').hide()
   $('.toad-lost').hide()
